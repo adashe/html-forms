@@ -1,35 +1,69 @@
-Order a Melongram
+<!doctype html>
 
-There's no better way to show a loved one you care than with a Melongram.
+<html lang="en">
+    <head>
+    <h1>
+    <title>Order a Melongram</title>
+    </h1>
+    </head>
+    </html>
+    <body>
+    <p>
+    There's no better way to show a loved one you care than with a Melongram.
+    </p>
+    <p>
+    Each Melongram comes with a custom message printed on high-quality cardstock
+    and your choice of a hand-picked, premium melon.
+    </p>
+    <h2>
+    Melon Options
+    </h2>
+    <p>
+    Choose from one of these melons:
+    </p>
+    <table>
+        <tr>
+            <td>Watermelon</td> 
+            <td>$1,200.00</td>
+        </tr>
+        <tr>
+            <td>Canteloupe</td>
+            <td>$400.00</td>
+        </tr>
+        <tr>
+            <td>Honeydew</td>
+            <td>$1,750.00</td>
+        </tr>
+    </table>    
 
-Each Melongram comes with a custom message printed on high-quality cardstock
-and your choice of a hand-picked, premium melon.
+    <h2>Order Form</h2>
+    <form>
+        <label>Your Name</label>
+        <input type="text" name="Name">
+        <label>Who are we sending this to?</label>
+        <input type="text" name="recipient">
 
-Melon Options
+        Choose a melon
+        <select name="melon">
+        <option value="watermelon">Watermelon</option>
+        <option value="cantaloupe">Cantaloupe</option>
+        <option value="honeydew">Honeydew</option>
+        </select>
 
-Choose from one of these melons:
+        When should we deliver?
+        <select>
+        <option value="am">Morning</option>
+        <option value="pm">Evening</option>
+        <option value="any">Any time</option>
+        </select>
 
-Watermelon $1,200.00
-Canteloupe $400.00
-Honeydew $1,750.00
+        Enter your message:
+        <textarea>name="message"</textarea>
+        
+        Subscribe to our newsletter
+        <input type="checkbox" name="subscribe" value="Yes">
 
-Order Form
-
-Your name
-
-Who are we sending this to?
-
-Choose a melon
-Watermelon
-Canteloupe
-Honeydew
-
-When should we deliver?
-Morning
-Evening
-Any time
-
-Enter your message:
-
-Subscribe to our newsletter
-Yes
+        <input type="submit">
+    </form>
+    </body>
+</html>
